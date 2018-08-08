@@ -151,7 +151,7 @@ public class GameCommander {
 				if (QUtil.isCombatMode(targetPositionList)) {
 					QlearningCombatIng = true;
 				}
-				if (QlearningCombatIng) {
+				if (QlearningCombatIng && MyBotModule.Broodwar.getFrameCount() > 24*60*10) {
 					QFlag.setTargetPosition(targetPositionList.get(QFlag.getTargetPositionIdx()));
 					ql.train();
 				}

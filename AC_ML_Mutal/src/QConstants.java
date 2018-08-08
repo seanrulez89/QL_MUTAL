@@ -7,7 +7,7 @@ public class QConstants {
      * true : 랜덤으로 Action한다.
      * false : Max Q값으로 Action한다.
      */
-    public static final boolean MLTraning = true;
+    public static final boolean MLTraning = false;
     
 	public static final int SINGHT_DIVIDE_CNT = 2;
 	
@@ -23,7 +23,7 @@ public class QConstants {
 	
 	public static final double GAMMA = 0.9;
 
-	public static final int Q_LEARNING_START_UNIT_CNT = 11;
+	public static final int Q_LEARNING_START_UNIT_CNT = 15;
 
 	/**
 	 * 스타크래프트 게임 Frame으로 인해 아래와 같이 Flag로 게임Frame을 제어한다.
